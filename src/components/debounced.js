@@ -15,5 +15,7 @@ export default function useDebounced(value, delay) {
     [value] 
   );
 
+  alert("a")
+
   return debouncedValue;
 }
